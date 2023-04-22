@@ -13,6 +13,8 @@ object Versions {
     val versionCode = 1
     val versionName = "1.0"
 
+    val splashScreen =  "1.0.0"
+
     //chat
     val agoraChatSdk = "1.1.0"
 }

@@ -42,6 +42,8 @@ android{
         androidTestImplementation(Dependencies.extJunit)
         androidTestImplementation(Dependencies.espressoCore)
 
+        implementation(Dependencies.splashScreen)
+
         //modules
         implementation(project(Modules.chat))
         implementation(project(Modules.onboarding))
