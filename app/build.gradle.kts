@@ -41,5 +41,9 @@ android{
         testImplementation(Dependencies.junit)
         androidTestImplementation(Dependencies.extJunit)
         androidTestImplementation(Dependencies.espressoCore)
+
+        //modules
+        implementation(project(Modules.chat))
+        implementation(project(Modules.onboarding))
     }
 }
