@@ -16,3 +16,4 @@ rootProject.name = "MessageMate"
 include ':app'
 include ':chat'
 include ':onboarding'
+include ':central'

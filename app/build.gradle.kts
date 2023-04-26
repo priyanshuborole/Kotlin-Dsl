@@ -47,5 +47,6 @@ android{
         //modules
         implementation(project(Modules.chat))
         implementation(project(Modules.onboarding))
+        implementation(project(Modules.central))
     }
 }

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.priyanshub.messagemate.chat"
+    namespace = "com.priyanshub.messagemate.central"
     compileSdk = 33
 
     defaultConfig {
@@ -34,6 +34,7 @@ android {
 }
 
 dependencies {
+
     implementation(Dependencies.coreKtx)
     implementation(Dependencies.appcompat)
     implementation(Dependencies.material)
@@ -41,11 +42,4 @@ dependencies {
     testImplementation(Dependencies.junit)
     androidTestImplementation(Dependencies.extJunit)
     androidTestImplementation(Dependencies.espressoCore)
-
-    //chat
-    implementation(Dependencies.agoraChatSdk)
-
-
-    //modules
-    implementation(project(Modules.central))
 }
