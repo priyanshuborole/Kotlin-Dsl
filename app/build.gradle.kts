@@ -33,6 +33,10 @@ android{
         jvmTarget = "1.8"
     }
 
+    buildFeatures{
+        dataBinding = true
+    }
+
     dependencies{
         implementation(Dependencies.coreKtx)
         implementation(Dependencies.appcompat)

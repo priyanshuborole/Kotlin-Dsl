@@ -9,4 +9,7 @@
     <color name="colorOnSecondary">#f2e9e4</color>
     <!-- Status bar color. -->
     <color name="statusBarColor">#22223b</color>
+
+    //colors
+    <color name="colorWhite">#FFFFFF</color>
 </resources>
